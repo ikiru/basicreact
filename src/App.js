@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Userinput from './Userinput/Userinput';
-import Useroutput from './Useroutput/Useroutput';
+import UserInput from './UserInput/UserInput';
+import UserOutput from './UserOutput/UserOutput';
 // this is a learning exercise
 
 class App extends Component {
@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <App />
-        <Userinput />
-        <Useroutput />
+        <UserInput />
+        <UserOutput />
       </div>
     );
   }

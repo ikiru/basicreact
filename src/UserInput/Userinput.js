@@ -1,7 +1,7 @@
 import React from 'react';
-import './Userinput.css';
+import './UserInput.css';
 
-const Userinput = (props) => {
+const userInput = (props) => {
     return(
         <div className='Userinput'>
             <input type='text'/>
@@ -9,4 +9,4 @@ const Userinput = (props) => {
     )
 }
 
-export default Userinput;
+export default userInput;

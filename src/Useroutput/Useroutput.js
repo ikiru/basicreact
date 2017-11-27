@@ -1,7 +1,7 @@
 import React from 'react';
-import './Useroutput.css';
+import './UserOutput.css';
 
-const Userinput = (props) => {
+const userOutput = (props) => {
     return(
         <div className='Useroutput'>
             <p>The big brown bear</p>
@@ -10,4 +10,4 @@ const Userinput = (props) => {
     )
 }
 
-export default Userinput;
+export default userOutput;
